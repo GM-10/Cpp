@@ -1,2 +1,2 @@
 # Cpp
-All my C programming commands are here
+All my C programming codes are here.
