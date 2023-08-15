@@ -24,7 +24,7 @@ int main()
    Employee a[2];
     for(i=0;i<2;i++)
     {
-        cout<<"Enter Employee ID, name, salary, address, date of joining of the employee:"<<i+1<<endl;
+        cout<<"Enter Employee ID, name, salary:"<<i+1<<endl;
         cin>>a[i].empid>>a[i].name>>a[i].salary;
         cout<<"Enter the address of the employee(blockno, society, area, city, district, state, pin no.)"<<endl;
         cin>>a[i].add.blockno>>a[i].add.society>>a[i].add.area>>a[i].add.city>>a[i].add.district>>a[i].add.state>>a[i].add.pin;
@@ -33,7 +33,7 @@ int main()
     }
     if(a[0].salary>a[1].salary)
     {
-        cout<<"Details of employee 1 are: "<<endl;
+        cout<<"Details of employee 0 are: "<<endl;
         cout<<"empid\tname\tsalary\tDate of joining"<<endl;
         cout<<a[0].empid<<'\t'<<a[0].name<<'\t'<<a[0].salary<<'\t'<<a[0].doj.day<<"-"<<a[0].doj.month<<"-"<<a[0].doj.year<<endl;
         cout<<"Adress: "<<endl;
